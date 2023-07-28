@@ -156,7 +156,7 @@
     <p class="w3-justify">
 	I am currently focusing on Synthetic Aperture Radar (SAR) target recognition in <span class="w3-text-red">open-world</span> scenarios,
 	that is, our model is expected to acheive two goals simultaneously:<br>
-	(1) classify images of known classes correctly; (2) recognize unknown classes that have not been seen during training stage.
+	<span class="w3-text-teal">(1)</span> Classify images of known classes correctly; <span class="w3-text-teal">(2)</span> Recognize unknown classes that have not been seen during training stage.
     </p>
 	<div class="timeline">
         <!-- 第一个时间点 -->
@@ -166,22 +166,50 @@
 	                <div class="title">Modeling hypersphere embedding for SAR open-set recognition</div>
 	                <div class="description">
 	                    <p><span class="w3-text-teal">My role:</span> &nbsp Main researcher</p>
-                      <img style="width: 100%;max-width: 800px" alt="research1" src="file/hyper.png">
+                    
+                      <div class="w3-content w3-display-container">
+                    
+                        <div class="w3-display-container mySlides1">
+                            <div class="re-img">
+                              <img style="width:100%" src="file/embedding.jpg" >
+                            </div>
+                            <div class="note">
+                              <p>
+                                On a unit hyperspherical embedding space, the <span class="w3-text-red">feature is normalized</span> and the similarity between 
+                                different samples is determined only by the <span class="w3-text-red">anglular difference</span> between them
+                              </p>
+                            </div>
+                            <div class="topleft">
+                                Illustration of desirable hypersphere embeddings for Open-set recognition
+                            </div>
+                        </div>
+                    
+                        <div class="w3-display-container mySlides1">
+                            <img src="file/hyper.png" style="width:100%">
+                            <div class="topleft">
+                                Overall framework for Open-set recognition
+                            </div>
+                        </div>
+                    
+                        <button class="w3-button w3-display-left w3-transparent-left" onclick="plusDivs1(-1)">&#10094;</button>
+                        <button class="w3-button w3-display-right w3-transparent" onclick="plusDivs1(1)">&#10095;</button>
+                    
+                      </div>
                       <ul>
                         <li class="research-item">
-                          Modeled extracted features onto a unit hypersphere with von Mises-Fisher (vMF) distribution to improve the 
+                          Model extracted features onto a unit hypersphere with von Mises-Fisher (vMF) distribution to improve the 
                           inter-class separability of learned representations
                         </li>
                         <li class="research-item">
-                          Measured the similarity of samples to each class center by angular difference and designed a discrimination
+                          Measure the similarity of samples to each class center by angular difference and designed a discrimination
                           criterion to detect unknown targets based on this metric
                         </li>
                         <li class="research-item">
-                          Optimized the embedding space with prototype learning to pull away the prototype representations of known
+                          Optimize the embedding space with prototype learning to pull away the prototype representations of known
                           classes, allowing as much space as possible for unknown classes
                         </li>
                         <li class="research-item">
-                          Implemented the algorithm and evaluated the performance on a public SAR imagery dataset (MSTAR)
+                          Implement the algorithm and evaluate the performance on a public SAR imagery dataset <a href="https://www.sdms.afrl.af.mil/datasets/matar/">(MSTAR)</a>
                         </li>
                       </ul>
                       
@@ -195,21 +223,44 @@
 	                <div class="title">A theshold-free open-set recognition network for SAR imagery</div>
 	                <div class="description">
 	                    <p><span class="w3-text-teal">My role:</span> &nbsp Main researcher</p>
-                      <img style="width: 100%;max-width: 800px" alt="research2" src="file/AOSC.jpg">
+                      <div class="w3-content w3-display-container">    
+                          <div class="w3-display-container mySlides2">
+                            <div class="re-img">
+                                <img style="width:650px" src="file/AOSC.jpg" >
+                            </div>                       
+                            <div class="topleft">
+                              Overall framework for Open-set recognition
+                            </div>
+                          </div>
+                
+                          <div class="w3-display-container mySlides2">
+                            <div class="re-img">
+                              <img src="file/discriminator.jpg" style="width:500px">
+                            </div>
+                            <div class="topleft">
+                                The structure of the discriminator
+                            </div>
+                          </div>
+
+                          <button class="w3-button w3-display-left w3-transparent-left" onclick="plusDivs2(-1)">&#10094;</button>
+                          <button class="w3-button w3-display-right w3-transparent" onclick="plusDivs2(1)">&#10095;</button>
+                    
+                      </div>
                       <ul>
                         <li class="research-item">
-                          Proposed a threshold-free open-set learning network for SAR target recognition
+                          Propose a threshold-free open-set learning network for SAR target recognition
                         </li>
                         <li class="research-item">
-                          Improved the network structure of GAN to formulate the open-set recognition problem as a K+1 classification
+                          Improve the network structure of GAN to formulate the open-set recognition problem as a K+1 classification
                           task, allowing the model to achieve both known classes classification and unknown classes identification automatically
                         </li>
                         <li class="research-item">
-                          Optimized the embedding space with prototype learning to pull away the prototype representations of known classes, 
-                          allowing as much space as possible for unknown classes
+                          Implemented the algorithm, evaluated the performance, and compared it with four SOTA models on two public 
+                          SAR datasets (<a href="https://www.sdms.afrl.af.mil/datasets/matar/">MSTAR</a> and 
+                          <a href="https://github.com/benjaminlewis-afrl/SAMPLE_dataset_public">SAMPLE</a>)
                         </li>
                         <li class="research-item">
-                          Implemented the algorithm and evaluated the performance on a public SAR imagery dataset (MSTAR)
+                          Summarize the ideas and experimental results, write a paper, and submit it to IEEE GRSL (2023)
                         </li>
                       </ul>
 	                </div>
@@ -223,18 +274,22 @@
                 <div class="title">Few-shot learning based on Siamese subspace classification network for SAR target</div>
                 <div class="description">
                     <p><span class="w3-text-teal">My role:</span> &nbsp Main researcher</p>
-                    <img style="width: 100%;max-width: 800px" alt="research3" src="file/fewshot.jpg">
+                    <div class="w3-display-container mySlides3">
+                    <div class="re-img">
+                      <img style="width: 100%;max-width: 800px" alt="research3" src="file/fewshot.jpg">
+                    </div>
+                    </div>
                     <ul>
                       <li class="research-item">
-                        Established a feature embedding network based on Siamese structure to extract discriminative features for 
+                        Establish a feature embedding network based on Siamese structure to extract discriminative features for 
                         few-shot SAR target recognition
                       </li>
                       <li class="research-item">
-                        Developed a subspace learning-based classifier to identify the type of SAR target
+                        Develope a subspace learning-based classifier to identify the type of SAR target
                       </li>
                       <li class="research-item">
-                        Evaluated the performance of the proposed method and compared it with three popular models on a public SAR
-                        dataset (MSTAR)
+                        Evaluate the performance of the proposed method and compare it with three popular models on a public SAR
+                        dataset <a href="https://www.sdms.afrl.af.mil/datasets/matar/">(MSTAR)</a>
                       </li>
                     </ul>
                 </div>
@@ -307,11 +362,26 @@
 <!-- The Services Section -->
   <div class="w3-container w3-padding-32" id="award">
     <h2 style="font-size:32px">Awards</h2>
-    <p><li> University Second Academic Scholarship</p>
-    <p><li><strong>Outstanding graduate of Anhui Province </strong></li></p>  
-    <p><li> University Merit Student</p>
-    <p><li> University Special Prize Scholarship, Top 1%</p>
-    <p><li> University Third Prize Scholarship</p>
+    <div class="award-item">
+      <li><span>University Second Academic Scholarship</span></li>
+      <span class="award-year">2022</span>
+    </div>
+    <div class="award-item">
+      <li><span><span style="font-weight:bold">Outstanding graduate of Anhui Province</span> </span></li>
+      <span class="award-year">2021</span>
+    </div>
+    <div class="award-item">
+      <li><span>University Merit Student</span></li>
+      <span class="award-year">2018-2020</span>
+    </div>
+    <div class="award-item">
+      <li><span>University Special Prize Scholarship, <span style="font-weight:bold">Top 1%</span> </span></li>
+      <span class="award-year">2018-2019</span>
+    </div>
+    <div class="award-item">
+      <li><span>University Third Prize Scholarship &nbsp;</span></li>
+      <span class="award-year">2019</span>
+    </div>
   </div>
   
   <!-- The Awards Section -->
@@ -357,6 +427,40 @@
 </div>
 
 <script>
+    var slideIndex1 = 1;
+    showDivs1(slideIndex1);
+
+    function plusDivs1(n) {
+        showDivs1(slideIndex1 += n);
+    }
+
+    function showDivs1(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides1");
+        if (n > x.length) {slideIndex1 = 1}
+        if (n < 1) {slideIndex1 = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex1-1].style.display = "block";
+    }
+
+    var slideIndex2 = 1;
+    showDivs2(slideIndex2);
+
+    function plusDivs2(n) {
+        showDivs2(slideIndex2 += n);
+    }
+    function showDivs2(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides2");
+        if (n > x.length) {slideIndex2 = 1}
+        if (n < 1) {slideIndex2 = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex2-1].style.display = "block";
+    }
 // Accordion 
 function myAccFunc() {
   var x = document.getElementById("demoAcc");
@@ -381,6 +485,8 @@ function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
   document.getElementById("myOverlay").style.display = "none";
 }
+
+
 </script>
 
 </body>
