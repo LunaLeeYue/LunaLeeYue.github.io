@@ -1,8 +1,7 @@
 # 📝 Research Experience 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/OSR_IL.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/OSR_IL_Framework.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **Open set recognition with incremental learning**
-**Role:** Group leader
 
 
   - Model the classification boundary using extreme value theory (EVT) to achieve open-set recognition.
@@ -16,7 +15,6 @@
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/vMF.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **Open set recognition based on a hyperspherical embedding network**
-**Role:** Group leader
 
 
 
@@ -34,7 +32,6 @@
 <div class='paper-box-text' markdown="1">
 **A threshold-free open-set recognition network for satellite imagery**
 
-**Role:** Group leader
 
 
 
@@ -50,8 +47,6 @@
 <div class='paper-box-text' markdown="1">
 **Siamese subspace classification network for few-shot learning**
 
-
-**Role:** Group leader
 
 
 
