@@ -1,0 +1,2 @@
+Welcome! I am now a graduate student in Communication Engineering at the University of Electronic Science and Technology of China [(UESTC)](https://en.uestc.edu.cn/). My research focuses on **deep learning for satellite image interpretation**, with a specific emphasis on **open set recognition** and **incremental learning**. For more information on my research interests and experience, check out my [Research ](https://lunaleeyue.github.io/#research)page!
+
