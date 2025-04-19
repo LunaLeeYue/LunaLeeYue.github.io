@@ -44,19 +44,3 @@
   - Implement the algorithm, evaluate the performance, and compare it with four SOTA models on two public satellite datasets (MSTAR and SAMPLE).
 </div>
 </div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/fewshot.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-**Siamese subspace classification network for few-shot learning**
-
-
-
-
-  - Establish a feature embedding network based on Siamese structure to extract discriminative features for few-shot recognition.
-    
-  - Develop a subspace learning-based classifier to identify the type of sample.
-
-  - Evaluate the performance of the proposed method and compare it with three popular models on a public satellite dataset (MSTAR).
-
-</div>
-</div>
