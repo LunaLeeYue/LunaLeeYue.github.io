@@ -20,10 +20,6 @@
 
   2024 IEEE International Geoscience and Remote Sensing Symposium. [Paper](../../papers/Global-local Information Interactive Learning Network For SAR Target Recognition.pdf)
 
-* ``IET IRC 2023`` [Threshold-free Adaptive Open-Set Classifier for SAR Target Recognition](../../papers/Threshold-free Adaptive Open-set Classifier for SAR Target Recognition.pdf), **Yue Li**, Haohao Ren, Xuelian Yu, Chengfa Zhang, Lin Zou, Yun Zhou
-
-  2023 IET International Radar Conference. [Paper](../../papers/Threshold-free Adaptive Open-set Classifier for SAR Target Recognition.pdf)
-
 
 ## Patents
 
