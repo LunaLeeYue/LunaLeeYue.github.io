@@ -16,7 +16,7 @@
 
   2024 IEEE International Geoscience and Remote Sensing Symposium. [Paper](../../papers/Layer-wise Representative Exemplar Selection-based Incremental Learning for SAR Target Recognition.pdf)
 
-* ``IGARSS 2023`` [Global-local Information Interactive Learning Network for SAR Target Recognition With Limited Sample](../../papers/Global-local Information Interactive Learning Network For SAR Target Recognition.pdf), Lei Miao, Haohao Ren, **Yue Li**, Lin Zou, Xuegang Wang
+* ``IGARSS 2024`` [Global-local Information Interactive Learning Network for SAR Target Recognition With Limited Sample](../../papers/Global-local Information Interactive Learning Network For SAR Target Recognition.pdf), Lei Miao, Haohao Ren, **Yue Li**, Lin Zou, Xuegang Wang
 
   2024 IEEE International Geoscience and Remote Sensing Symposium. [Paper](../../papers/Global-local Information Interactive Learning Network For SAR Target Recognition.pdf)
 
