@@ -1,2 +1,2 @@
-Welcome! I am now a graduate student in Communication Engineering at the University of Electronic Science and Technology of China [(UESTC)](https://en.uestc.edu.cn/). My research focuses on **deep learning for satellite image interpretation**, with a specific emphasis on **open set recognition** and **incremental learning**. For more information on my research interests and experience, check out my research page!
+Welcome! I am now a Ph.D student in Geosensing Systems Engineering and Sciences at the University of Houston. My current research focuses on **remote sensing of hydrology**, with a specific emphasis on **flood inundation forecasting**. For more information on my research interests and experience, check out my research page!
 
