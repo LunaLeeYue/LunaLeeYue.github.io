@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yue Li"
-description              : "Master of Communication Engineering (2021- 2024Expected). Finding the PhD position (2024 or 2025) "
+description              : "Ph.D. in Geosensing Systems Engineering and Sciences"
 repository               : "LunaLeeYue/LunaLeeYue.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,8 +23,8 @@ baidu_site_verification  : code-ZxFK3f4pfb
 author:
   name             : "Yue Li (李月)"
   avatar           : "images/profile.jpeg"
-  bio              : "School of Information and Communication Engineering"
-  location         : "Chengdu"
+  bio              : "Research Assistant"
+  location         : "Houston, TX, U.S."
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=2Y24NnAAAAAJ"
@@ -43,7 +43,7 @@ author:
   instagram        :
   impactstory      : 
   lastfm           :
-  linkedin         : 
+  linkedin         : https://www.linkedin.com/in/yue-li-47a784285/
   dblp             : 
   orcid            : 
   pinterest        :
