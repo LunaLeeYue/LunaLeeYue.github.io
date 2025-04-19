@@ -1,9 +1,13 @@
 
 # 📖 Educations
-- *2021.09 - 2024.06*, **Master** in Communication Engineering, **UESTC**, Chengdu.
+- Ph.D. in Geosensing Systems Engineering and Sciences, University of Houston, U.S., Present.
+  
+  - Advisor: [Dr. Hyongki Lee](https://www.cive.uh.edu/faculty/lee)
+    
+- M.Sc. in Communication Engineering, University of Electronic Science and Technology of China, China, 2024.
 
-  - **Advisor:**  [Haohao Ren](https://scholar.google.com/citations?hl=en&user=5G452t8AAAAJ) 
+  - Advisor:  [Dr. Haohao Ren](https://scholar.google.com/citations?hl=en&user=5G452t8AAAAJ) 
   
   
-- *2017.09 - 2021.06*, **Bachelor** in Communication Engineering, **Hefei University**, Hefei.
+- B.Sc. in Communication Engineering, Hefei University, China, 2021.
 
