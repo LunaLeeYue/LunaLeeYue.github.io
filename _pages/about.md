@@ -15,13 +15,13 @@ redirect_from:
 
 {% include_relative includes/education.md %}
 
-<span class='anchor' id='-experience'></span>
-
-{% include_relative includes/research.md %}
-
 <span class='anchor' id='-publications'></span>
 
 {% include_relative includes/pub.md %}
+
+<span class='anchor' id='-experience'></span>
+
+{% include_relative includes/research.md %}
 
 <span class='anchor' id='-honors-and-awards'></span>
 
