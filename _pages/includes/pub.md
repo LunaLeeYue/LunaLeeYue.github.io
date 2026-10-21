@@ -1,12 +1,12 @@
 # 📝 Publications 
 
-## Journal:
+## Journal
 
 * ``IEEE Sensors Journal`` [Threshold-free Open-set Learning Network for SAR Automatic Target Recognition](../../papers/Threshold-free Open-set Learning Network for SAR Automatic Target Recognition.pdf),**Yue Li**, Haohao Ren, Xuelian Yu, Chengfa Zhang, Lin Zou, Yun Zhou
 
   IEEE Sensors Journal, 2024. [Paper](../../papers/Threshold-free Open-set Learning Network for SAR Automatic Target Recognition.pdf)
 
-## Conference:
+## Conference
 * ``AGU 2025`` [Real-time Flood Extent Forecasting Using an Encoder-decoder ConvLSTM Integrated with Data Assimilation](https://ui.adsabs.harvard.edu/abs/2025AGUFMH21U.1255L/abstract), **Yue Li**, Hyongki Lee, Tien Le Thuy Du, Amirhossein Rostami, Hung-Hsien Wan
 
   AGU Annual Meeting 2025. [Abstract](https://ui.adsabs.harvard.edu/abs/2025AGUFMH21U.1255L/abstract) · [Poster](/papers/AGU25_Poster_Yue.pdf)
