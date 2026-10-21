@@ -13,7 +13,7 @@ redirect_from:
 
 <div class="profile-site">
 <section class="site-panel home-panel" data-view="home" aria-label="About Me and News" markdown="1">
-<div class="home-banner" style="height:clamp(150px,20vw,260px)"><img src="{{ '/images/uh-cullen-flowers.jpg' | relative_url }}" alt="Ezekiel W. Cullen Building at the University of Houston, framed by flowers" style="object-position:50% 64%;filter:none"><span>University of Houston · Ezekiel W. Cullen Building</span></div>
+<div class="home-banner" style="height:clamp(150px,20vw,260px)"><img src="{{ '/images/uh-cullen-flowers.jpg' | relative_url }}" alt="Ezekiel W. Cullen Building at the University of Houston, framed by flowers" style="object-position:50% 64%;filter:none"></div>
 <div class="home-columns" markdown="1">
 <div id="about-me" class="editorial-about" markdown="1">
 <h1 id="about-heading">About Me</h1>
