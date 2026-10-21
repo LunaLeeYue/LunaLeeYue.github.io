@@ -1,4 +1,4 @@
-# 📰 News
+# News
 
 <!-- Add new entries at the top, using the date of the event. -->
 
