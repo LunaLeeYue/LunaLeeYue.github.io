@@ -1,6 +1,6 @@
-# 📝 Research Experience 
+# Research Experience 
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/agu2025-study-area.jpg' alt="Upper Mississippi Alluvial Plain study area and USGS stations" width="100%" loading="lazy"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><a class="research-figure" href="/images/agu2025-study-area.jpg" aria-label="Expand research figure"><img src="/images/agu2025-study-area.jpg" alt="Upper Mississippi Alluvial Plain study area and USGS stations" width="100%" loading="lazy"><span>Expand figure ↗</span></a></div></div>
 <div class='paper-box-text' markdown="1">
 **Real-time flood extent forecasting with deep learning and data assimilation**
 
@@ -11,7 +11,7 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/vMF.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a class="research-figure" href="/images/vMF.jpg" aria-label="Expand research figure"><img src="/images/vMF.jpg" alt="Research method diagram" width="100%" loading="lazy"><span>Expand figure ↗</span></a></div></div>
 <div class='paper-box-text' markdown="1">
 **Open set recognition based on a hyperspherical embedding network**
 
@@ -25,7 +25,7 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/AOSC.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><a class="research-figure" href="/images/AOSC.jpg" aria-label="Expand research figure"><img src="/images/AOSC.jpg" alt="Research method diagram" width="100%" loading="lazy"><span>Expand figure ↗</span></a></div></div>
 <div class='paper-box-text' markdown="1">
 **A threshold-free open-set recognition network for satellite imagery**
 
@@ -36,4 +36,3 @@
   - Implement the algorithm, evaluate the performance, and compare it with four SOTA models on two public satellite datasets (MSTAR and SAMPLE).
 </div>
 </div>
-
