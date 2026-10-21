@@ -7,7 +7,7 @@
   - Combine an encoder-decoder ConvLSTM with Ensemble Kalman Filter (EnKF) data assimilation to forecast flood extent in the Upper Mississippi Alluvial Plain.
   - Use VIIRS water fraction observations for 3-day forecasts and reduce error accumulation through satellite observation updates.
 
-  AGU 2025 · [Abstract](https://ui.adsabs.harvard.edu/abs/2025AGUFMH21U.1255L/abstract)
+  AGU 2025 · [Abstract](https://ui.adsabs.harvard.edu/abs/2025AGUFMH21U.1255L/abstract) · [Poster](/papers/AGU25_Poster_Yue.pdf)
 </div>
 </div>
 
