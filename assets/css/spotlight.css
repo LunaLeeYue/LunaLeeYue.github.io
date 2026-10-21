@@ -55,3 +55,52 @@ body{background:var(--wash);color:var(--ink);font-family:-apple-system,BlinkMacS
 @media(max-width:760px){.sidebar .profile_box{display:grid;grid-template-columns:80px minmax(0,1fr);column-gap:16px;align-items:center}.sidebar .profile_box>.author__avatar{grid-row:1 / 3;width:80px;display:block;margin:0}.sidebar .author__avatar img{width:80px;height:80px;max-width:80px}.sidebar .author__content{display:block;padding:0;min-width:0}.sidebar .author__name{margin:0 0 3px;white-space:nowrap;font-size:21px}.sidebar .author__bio{margin:0;font-size:12px}.sidebar .author__urls-wrapper{display:block;width:auto;padding:0;grid-column:2}.sidebar .author__urls_sm{display:flex;gap:13px;font-size:17px;margin-top:7px}.sidebar .author__urls_sm a{display:inline-flex}.sidebar .author__urls_sm i{font-size:17px}.sidebar .author__urls{display:none!important}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
 @media print{.profile-site [hidden]{display:block!important}.spotlight-actions,.water-lines{display:none}#main{display:block}.detail-panel{break-before:page}}
+
+/* Editorial theme */
+:root{--ink:#182b49;--muted:#67717e;--accent:#294a70;--line:#d8d8d4;--paper:#fcfbf8;--wash:#f8f6f0}
+body{font-family:Georgia,"Times New Roman",serif;font-size:17px}
+#main{max-width:1440px;grid-template-columns:235px minmax(0,1fr);gap:42px;margin-top:35px}
+#main>.sidebar{top:35px;border-right:1px solid var(--line);padding-right:25px}
+.sidebar .author__name{font-family:Georgia,"Times New Roman",serif;font-size:27px;letter-spacing:-.6px}
+.sidebar .author__bio,.sidebar .author__urls{font-size:15px}
+.sidebar .author__avatar img{box-shadow:none;border-color:#fffdf8}
+.editorial-nav{display:flex;flex-direction:column;gap:6px;margin-top:26px;border-top:1px solid var(--line);padding-top:22px}
+.editorial-nav a{font-family:Georgia,"Times New Roman",serif;font-size:17px;color:var(--ink);padding:9px 12px;text-decoration:none;border-left:3px solid transparent}
+.editorial-nav a:hover,.editorial-nav a[aria-current]{background:#e7ebee;border-left-color:var(--accent)}
+.page__content .profile-site{font-size:17px}
+.home-banner{position:relative;height:220px;overflow:hidden;border:1px solid #d5d4cb;margin-bottom:32px}
+.home-banner img{display:block;width:100%;height:100%;object-fit:cover;object-position:50% 45%;filter:saturate(.65)}
+.home-banner span{position:absolute;bottom:12px;right:12px;background:#fcfbf8ed;color:var(--ink);padding:5px 9px;font:11px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.home-columns{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:42px}
+.page__content #about-me.editorial-about{margin-top:0}
+.page__content #about-me.editorial-about:before{display:none}
+.page__content .profile-site h1{font-family:Georgia,"Times New Roman",serif;font-size:34px;letter-spacing:-.7px;border-bottom:1px solid #a9b3bf;padding-bottom:15px;margin-bottom:22px;font-weight:600}
+.editorial-about p{font-size:18px;line-height:1.85;color:var(--ink)}
+.editorial-about strong{font-weight:600}
+.news-section{margin:0}
+.page__content .news-section h1{font-size:34px;letter-spacing:-.7px}
+.news-section>ul>li{font-size:15px;line-height:1.8;padding:0 0 23px 0;border:0;margin:0 0 20px}
+.news-section>ul>li>strong:first-child{position:static;display:block;font:600 12px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--accent);margin-bottom:7px}
+.detail-panel{padding:0;background:transparent;border:0;border-radius:0}
+.profile-site .eyebrow{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#7c827e}
+.profile-site h2{font-family:Georgia,"Times New Roman",serif}
+.publication-card h3{font-family:Georgia,"Times New Roman",serif;font-size:20px!important}
+.publication-meta,.publication-links,.publication-authors{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.venue-label{border:0;border-radius:2px;background:#e7ecf0;color:var(--accent)}
+.publication-card .publication-authors{font-size:14px}
+.publication-card .publication-venue{font-size:14px}
+.profile-site .paper-box{grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:30px;padding:30px 0;align-items:start}
+.profile-site .paper-box .paper-box-image{width:100%;max-width:none}
+.profile-site .paper-box-image>div{height:auto;min-height:0;padding:0;background:transparent;border:1px solid var(--line);border-radius:0;display:block}
+.profile-site .paper-box .paper-box-image img{width:100%;max-width:100%;height:auto;max-height:650px;object-fit:contain;display:block}
+.profile-site .paper-box .paper-box-text{font-size:15px;line-height:1.85}
+.paper-box-text>p:first-child{font-size:21px;line-height:1.4}
+.research-figure{position:relative;display:block;padding:10px;background:#fff;color:var(--ink)}
+.research-figure span{position:absolute;right:9px;top:9px;background:var(--ink);color:#fff;font:11px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;padding:5px 8px;border-radius:3px}
+.research-figure:hover img{box-shadow:none!important}
+.profile-site .paper-box:has(img[src*="vMF"]),.profile-site .paper-box:has(img[src*="AOSC"]){grid-template-columns:1fr;gap:22px}
+.profile-site .paper-box:has(img[src*="vMF"]) .paper-box-text,.profile-site .paper-box:has(img[src*="AOSC"]) .paper-box-text{max-width:850px}
+@media(min-width:901px){.masthead{display:none}#main{margin-top:35px}}
+@media(max-width:1100px){#main{grid-template-columns:205px minmax(0,1fr);gap:28px}.home-columns{grid-template-columns:1fr;gap:30px}.home-banner{height:190px}.profile-site .paper-box{grid-template-columns:1fr;gap:24px}.profile-site .paper-box .paper-box-image img{max-height:700px}}
+@media(max-width:900px){.editorial-nav{display:none}#main>.sidebar{border:0;padding-right:0;top:95px}.masthead{background:#fcfbf8}.home-banner{height:175px}}
+@media(max-width:760px){#main{margin-top:25px}.sidebar .author__name{font-size:23px}.home-columns{gap:28px}.page__content .profile-site h1,.page__content .news-section h1{font-size:29px}.editorial-about p{font-size:17px;line-height:1.8}.home-banner{height:150px;margin-bottom:25px}.home-banner span{font-size:9px}.news-section>ul>li{padding-top:0}.profile-site .paper-box{grid-template-columns:1fr;padding:24px 0}.profile-site .paper-box-image>div{height:auto}.profile-site .paper-box .paper-box-image img{max-height:none;width:100%;height:auto}.paper-box-text>p:first-child{font-size:19px}.publication-card h3{font-size:18px!important}}
