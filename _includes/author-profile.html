@@ -9,7 +9,7 @@
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
+    <h3 class="author__name">{{ author.name | replace: "李月", '<span class="author__name-zh">李月</span>' }}</h3>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
     <p class="author__email" style="font-size:14px;line-height:1.6;margin:4px 0 16px;color:inherit;white-space:nowrap">yli168 at uh.edu</p>
   </div>
@@ -18,7 +18,7 @@
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
       {% if site.description %}
-        <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
+        <li><div class="author__description" style="white-space: normal; margin-bottom: 1em;">{{ site.description | replace: "Geosensing Systems", "Geosensing<br>Systems" }}</div></li>
       {% endif %}
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
