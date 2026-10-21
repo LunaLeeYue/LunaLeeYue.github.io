@@ -1,5 +1,5 @@
 
-# 📖 Educations
+# Educations
 - Ph.D. in Geosensing Systems Engineering and Sciences, University of Houston, U.S., Present.
   
   - Advisor: [Dr. Hyongki Lee](https://www.cive.uh.edu/faculty/lee)
