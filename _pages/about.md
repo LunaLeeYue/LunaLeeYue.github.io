@@ -16,7 +16,7 @@ redirect_from:
 <div class="home-banner"><img src="{{ '/images/agu2025-study-area.jpg' | relative_url }}" alt="" aria-hidden="true"><span>Upper Mississippi Alluvial Plain · Study area</span></div>
 <div class="home-columns" markdown="1">
 <div id="about-me" class="editorial-about" markdown="1">
-# About Me
+<h1 id="about-heading">About Me</h1>
 
 Welcome! I am now a Ph.D student in Geosensing Systems Engineering and Sciences at the University of Houston. My current research focuses on **remote sensing of hydrology**, with a specific emphasis on **flood inundation forecasting**. For more information on my research interests and experience, check out my [research page](#-experience)!
 </div>
