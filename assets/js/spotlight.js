@@ -18,7 +18,7 @@
   if (sidebar) sidebar.appendChild(sidebarNav);
   document.querySelectorAll('.greedy-nav button').forEach(button => button.setAttribute('aria-label', 'Open navigation menu'));
   const panels = Array.from(root.querySelectorAll('[data-view]'));
-  const views = {'about-me':'home', '-news':'home', '-educations':'education', '-publications':'publications', '-experience':'research', '-research-experience':'research', '-honors-and-awards':'honors'};
+  const views = {'about-me':'home', '-news':'home', '-educations':'home', '-publications':'publications', '-experience':'research', '-research-experience':'research', '-honors-and-awards':'honors'};
   function render(moveFocus) {
     const anchor = decodeURIComponent(location.hash.slice(1));
     const view = views[anchor] || 'home';
@@ -31,10 +31,11 @@
       else link.removeAttribute('aria-current');
     });
     if (moveFocus) {
-      const target = anchor === '-news' ? document.getElementById('-news') : panels.find(panel => !panel.hidden);
+      const homeAnchor = anchor === '-news' || anchor === '-educations';
+      const target = homeAnchor ? document.getElementById(anchor) : panels.find(panel => !panel.hidden);
       const heading = target && (target.querySelector('h1') || target);
       if (heading) { heading.setAttribute('tabindex', '-1'); heading.focus({preventScroll:true}); }
-      if (anchor === '-news') target.scrollIntoView({block:'start'});
+      if (homeAnchor && target) target.scrollIntoView({block:'start'});
       else window.scrollTo({top:0, behavior:'instant'});
     }
   }
