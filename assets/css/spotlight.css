@@ -106,7 +106,7 @@ body{font-family:Georgia,"Times New Roman",serif;font-size:17px}
 @media(max-width:760px){#main{margin-top:25px}.sidebar .author__name{font-size:23px}.home-columns{gap:28px}.page__content .profile-site h1,.page__content .news-section h1{font-size:29px}.editorial-about p{font-size:17px;line-height:1.8}.home-banner{height:150px;margin-bottom:25px}.home-banner span{font-size:9px}.news-section>ul>li{padding-top:0}.profile-site .paper-box{grid-template-columns:1fr;padding:24px 0}.profile-site .paper-box-image>div{height:auto}.profile-site .paper-box .paper-box-image img{max-height:none;width:100%;height:auto}.paper-box-text>p:first-child{font-size:19px}.publication-card h3{font-size:18px!important}}
 
 /* Sidebar typography and wider desktop profile column. */
-.sidebar .author__name-zh{font-family:SimSun,"Songti SC","Noto Serif CJK SC",serif;font-weight:400}
+.sidebar .author__name-zh{font-family:SimSun,"Songti SC","Noto Serif CJK SC",serif;font-weight:700}
 @media(min-width:1101px){#main{grid-template-columns:290px minmax(0,1fr);gap:36px}}
 @media(min-width:761px) and (max-width:1100px){#main{grid-template-columns:280px minmax(0,1fr);gap:26px}}
 @media(min-width:761px){.sidebar .author__description{font-size:15px;line-height:1.65}}
