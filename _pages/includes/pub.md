@@ -1,4 +1,4 @@
-# 📝 Full Publications 
+# 📝 Publications 
 
 ## Journal:
 
