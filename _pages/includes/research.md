@@ -1,4 +1,16 @@
 # 📝 Research Experience 
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/agu2025-study-area.jpg' alt="Upper Mississippi Alluvial Plain study area and USGS stations" width="100%" loading="lazy"></div></div>
+<div class='paper-box-text' markdown="1">
+**Real-time flood extent forecasting with deep learning and data assimilation**
+
+  - Combine an encoder-decoder ConvLSTM with Ensemble Kalman Filter (EnKF) data assimilation to forecast flood extent in the Upper Mississippi Alluvial Plain.
+  - Use VIIRS water fraction observations for 3-day forecasts and reduce error accumulation through satellite observation updates.
+
+  AGU 2025 · [Abstract](https://ui.adsabs.harvard.edu/abs/2025AGUFMH21U.1255L/abstract)
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='images/vMF.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 **Open set recognition based on a hyperspherical embedding network**
@@ -24,3 +36,4 @@
   - Implement the algorithm, evaluate the performance, and compare it with four SOTA models on two public satellite datasets (MSTAR and SAMPLE).
 </div>
 </div>
+

@@ -7,7 +7,9 @@
   IEEE Sensors Journal, 2024. [Paper](../../papers/Threshold-free Open-set Learning Network for SAR Automatic Target Recognition.pdf)
 
 ## Conference:
-* ``AGU 2025`` [Real-time Flood Extent Forecasting Using an Encoder-decoder ConvLSTM Integrated with Data Assimilation], **Yue Li**, Hyongki Lee, Tien Le Thuy Du, Amirhossein Rostami, Hung-Hsien Wan
+* ``AGU 2025`` [Real-time Flood Extent Forecasting Using an Encoder-decoder ConvLSTM Integrated with Data Assimilation](https://ui.adsabs.harvard.edu/abs/2025AGUFMH21U.1255L/abstract), **Yue Li**, Hyongki Lee, Tien Le Thuy Du, Amirhossein Rostami, Hung-Hsien Wan
+
+  AGU Annual Meeting 2025, conference abstract H21U-1255. [Abstract](https://ui.adsabs.harvard.edu/abs/2025AGUFMH21U.1255L/abstract)
 
 - ``IGARSS 2024`` [Pseudo-unknown Class Guided-based Open-set Learning Network for SAR Automatic Target Recognition](../../papers/Pseudo-unknown Class Guided-based Open-set Learning Network for SAR Automatic Target Recognition.pdf), **Yue Li**, Haohao Ren, Xuelian Yu, Chengfa Zhang, Lin Zou, Yun Zhou
 
@@ -28,3 +30,4 @@
 * Xuelian Yu, **Yue Li**, Haohao Ren, Sen Liu, Fulu Dong, Lin Zou, Yun Zhou, “A Few-shot SAR Target Recognition Method Based on Siamese Subspace Classification Network”, CN patent No. CN202211159684.0, Sep 2022.
 * Xuelian Yu, Sen Liu, Haohao Ren, Sihui Yu, **Yue Li**, Lin Zou, Yun Zhou, “A Deep Network Based on Bi-similarity Metric for Few-shot SAR Target Recognition”, CN patent No. CN202211198200.3, Sep 2022.
 -->
+
