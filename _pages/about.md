@@ -13,16 +13,16 @@ redirect_from:
 
 <div class="profile-site">
 <section class="site-panel home-panel" data-view="home" aria-label="About Me and News" markdown="1">
-<div id="about-me" class="spotlight" markdown="1">
-<p class="eyebrow">REMOTE SENSING · HYDROLOGY</p>
-<h1>Understanding water.<br><span>Anticipating floods.</span></h1>
-<p class="spotlight-intro">I'm Yue Li, a Ph.D. student in Geosensing Systems Engineering and Sciences at the University of Houston. I study remote sensing of hydrology, with a focus on flood inundation forecasting.</p>
-<div class="research-tags"><span>Satellite observations</span><span>Deep learning</span><span>Data assimilation</span></div>
-<div class="spotlight-actions"><a class="primary-link" href="#-experience">Explore my research <span aria-hidden="true">↗</span></a><a href="#-publications">View publications <span aria-hidden="true">→</span></a></div>
-<div class="water-lines" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+<div class="home-banner"><img src="{{ '/images/agu2025-study-area.jpg' | relative_url }}" alt="" aria-hidden="true"><span>Upper Mississippi Alluvial Plain · Study area</span></div>
+<div class="home-columns" markdown="1">
+<div id="about-me" class="editorial-about" markdown="1">
+# About Me
+
+Welcome! I am now a Ph.D student in Geosensing Systems Engineering and Sciences at the University of Houston. My current research focuses on **remote sensing of hydrology**, with a specific emphasis on **flood inundation forecasting**. For more information on my research interests and experience, check out my [research page](#-experience)!
 </div>
 <div class="news-section" id="-news" markdown="1">
 {% include_relative includes/news.md %}
+</div>
 </div>
 </section>
 
