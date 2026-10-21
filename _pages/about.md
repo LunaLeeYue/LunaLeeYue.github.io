@@ -13,7 +13,7 @@ redirect_from:
 
 <div class="profile-site">
 <section class="site-panel home-panel" data-view="home" aria-label="About Me and News" markdown="1">
-<div class="home-banner"><img src="{{ '/images/agu2025-study-area.jpg' | relative_url }}" alt="" aria-hidden="true"><span>Upper Mississippi Alluvial Plain · Study area</span></div>
+<div class="home-banner"><img src="{{ '/images/uh-campus-cullen.jpg' | relative_url }}" alt="University of Houston campus and Cullen Family Plaza fountains" style="object-position:50% 30%"><span>University of Houston · <a href="https://stories.uh.edu/2023-100-years-project/index.html">Photo: University of Houston</a></span></div>
 <div class="home-columns" markdown="1">
 <div id="about-me" class="editorial-about" markdown="1">
 <h1 id="about-heading">About Me</h1>
