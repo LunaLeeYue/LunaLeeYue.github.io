@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/spotlight.css' | relative_url }}">
-<script src="{{ '/assets/js/spotlight.js' | relative_url }}" defer></script>
+<link rel="stylesheet" href="{{ '/assets/css/spotlight.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+<script src="{{ '/assets/js/spotlight.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
 
 <div class="profile-site">
 <section class="site-panel home-panel" data-view="home" aria-label="About Me and News" markdown="1">
