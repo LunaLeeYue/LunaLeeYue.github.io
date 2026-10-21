@@ -19,7 +19,7 @@ redirect_from:
 <div id="about-me" class="editorial-about" markdown="1">
 <h1 id="about-heading">About Me</h1>
 
-Welcome! I am now a Ph.D student in Geosensing Systems Engineering and Sciences at the University of Houston. My current research focuses on **remote sensing of hydrology**, with a specific emphasis on **flood inundation forecasting**. For more information on my research interests and experience, check out my [research page](#-experience)!
+Welcome! I am now a Ph.D student in Geosensing Systems Engineering and Sciences at the University of Houston. My current research focuses on **remote sensing of hydrology**, with a specific emphasis on **flood inundation forecasting**.
 </div>
 <div class="home-education" id="-educations" style="margin-top:38px;font-size:15px;line-height:1.8;scroll-margin-top:35px" markdown="1">
 <h1 id="home-education-heading">Education</h1>
